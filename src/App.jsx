@@ -12,6 +12,12 @@ const App = () => {
         course="BCA"
         marks="85%"
       />
+      <Student
+        name="Rahul Kumar"
+        rollNo="101"
+        course="BCA"
+        marks="85%"
+      />
 
       <Student
         name="Priya Singh"
