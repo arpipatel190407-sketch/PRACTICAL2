@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./components/Student.JSX";
+import Student from "./components/Student";
 
 const App = () => {
   return (
