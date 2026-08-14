@@ -1,34 +1,33 @@
 import React from "react";
-import Student from "./components/Student.jsx";
+import Student from "./components/Student.JSX";
 
-function App() {
-return (
-<div>
-<h1>Student Details</h1>
+const App = () => {
+  return (
+    <div>
+      <h1>Student Details</h1>
 
-<Student
-name="Rahul Kumar"
-rollNo="101"
-course="BCA"
-marks="85%"
-/>
+      <Student
+        name="Rahul Kumar"
+        rollNo="101"
+        course="BCA"
+        marks="85%"
+      />
 
-<Student
-name="Priya Singh"
-rollNo="102"
-course="BCA"
-marks="92%"
-/>
+      <Student
+        name="Priya Singh"
+        rollNo="102"
+        course="BCA"
+        marks="92%"
+      />
 
-<Student
-name="Amit Sharma"
-rollNo="103"
-course="BCA"
-
-marks="78%"
-/>
-</div>
-);
-}
+      <Student
+        name="Amit Sharma"
+        rollNo="103"
+        course="BCA"
+        marks="78%"
+      />
+    </div>
+  );
+};
 
 export default App;
