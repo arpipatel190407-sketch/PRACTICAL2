@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./Student.JSX";
+import Student from "./components/Student.JSX";
 
 function App() {
 return (
