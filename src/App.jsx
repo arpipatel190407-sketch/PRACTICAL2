@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./Student";
+import Student from "./Student.JSX";
 
 function App() {
 return (
@@ -23,6 +23,13 @@ marks="92%"
 <Student
 name="Amit Sharma"
 rollNo="103"
+course="BCA"
+
+marks="78%"
+/>
+<Student
+name="Amit shah"
+rollNo="105"
 course="BCA"
 
 marks="78%"
