@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <h1>Student Details</h1>
-
+<h1>Hello React</h1>
       <Student
         name="Rahul Kumar"
         rollNo="101"
